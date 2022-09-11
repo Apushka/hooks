@@ -13,7 +13,7 @@ const SimpleComponent = ({ isAuth, onLogin, onLogOut }) => {
 };
 
 SimpleComponent.propTypes = {
-    isAuth: PropTypes.string,
+    isAuth: PropTypes.bool,
     onLogin: PropTypes.func,
     onLogOut: PropTypes.func
 };
